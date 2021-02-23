@@ -1,0 +1,59 @@
+.cta {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 400;
+    padding: .5em 0;
+    text-shadow: 1px 1px 100px white;
+}
+
+.info {
+    font-size: xx-large;
+    text-align: justify;
+    /* padding: 0 5em; */
+    text-indent: 12%;
+    font-weight: lighter;
+    
+}
+
+.copyright {
+    font-size: small;
+    /* color: black; */
+    color: #779bda;
+    text-align: center;
+    font-weight: 300;
+}
+
+body {
+    background-color: #436299;
+    color: white;
+}
+
+footer {
+    height: 72px;
+
+}
+
+@media (max-width: 991px) {
+    .cta {
+        font-size: 2.5rem;
+    }
+
+    .info {
+        font-size: x-large;
+        text-indent: 0;
+    }
+
+    .logo {
+        background-color: #436299;
+        color: white;
+    }
+  }
+
+@font-face {
+    font-family: 'Nebulous';
+    src: url(../font/NebulousRegular-54aV.ttf);
+}
+
+.nebulous-font {
+    font-family: 'Nebulous', sans-serif;
+}

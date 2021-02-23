@@ -1,0 +1,9 @@
+[class*="container"] {
+    outline: 1px solid red;
+}
+[class*="row"] {
+    outline: 1px solid green;
+}
+[class*="col"] {
+    outline: 1px solid blue;
+}
